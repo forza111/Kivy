@@ -61,7 +61,7 @@ class AdresBookApp(App):
                             text_size = (400-50,500*.4-50))#задает ширины и высоту для текстуры текста
         bl.add_widget(self.lbl)
 
-        bl.add_widget(Button(text = 'Поиск контакта',on_press = ))
+        bl.add_widget(Button(text = 'Поиск контакта',on_press = self.add_number))
         bl.add_widget(Button(text = 'Добавить контакт',on_press = self.add_number))
         bl.add_widget(Button(text = 'Изменить контакт',on_press = self.add_number))
         bl.add_widget(Button(text = 'Посмотреть информацию о контакте',on_press = self.add_operation))
